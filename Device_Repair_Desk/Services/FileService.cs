@@ -19,9 +19,9 @@ namespace Device_Repair_Desk.Services
         }
 
 
-        public async void SaveAsync(List<RapairJob> jobs) 
+        public async void SaveAsync(List<RapairJob> jobs)
         {
-            string json= JsonSerializer.Serialize(jobs);
+            string json = JsonSerializer.Serialize(jobs);
             await File.WriteAllTextAsync(file, json);
         }
     }
