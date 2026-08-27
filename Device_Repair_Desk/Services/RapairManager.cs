@@ -10,6 +10,10 @@ namespace Device_Repair_Desk.Services
     public class RapairManager
     {
         List<RapairJob> jobs; //private
+        public RapairManager(List<RapairJob> jobs)
+        {
+            this.jobs = jobs ;
+        }
         public void AddJob(RapairJob job)
         {
             if (string.IsNullOrWhiteSpace(job.CustomerName) || string.IsNullOrWhiteSpace(job.DeviceName)

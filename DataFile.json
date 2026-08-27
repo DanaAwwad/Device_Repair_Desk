@@ -1,0 +1,12 @@
+{
+  
+    {
+      "Id": 1,
+      "CustomerName": "dana",
+      "DeviceName": "iphone",
+      "DeviceType": 1,
+      "ProblemNotes": "broken screen",
+      "Status": 1
+    }
+  
+}
