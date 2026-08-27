@@ -5,16 +5,15 @@ using System.Text;
 
 namespace Device_Repair_Desk.Modles
 {
-    public class LaptopRapairService : RapairService , ICostEstimatable
+    public class LaptopRapairService : RapairService, ICostEstimatable
     {
         public override string GetServiceName()
         {
             return "Laptop Rapair Service";
         }
-    public decimal CalculateEstimatedCost()
-    {
+        public decimal CalculateEstimatedCost()
+        {
             return 100;
-    }
-
+        }
     }
 }

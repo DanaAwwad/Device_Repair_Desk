@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Device_Repair_Desk.Modles
 {
-    public class PhoneRapairService : RapairService , ICostEstimatable
+    public class PhoneRapairService : RapairService, ICostEstimatable
     {
         public override string GetServiceName()
         {
